@@ -1,0 +1,88 @@
+	• Categorical encoding. 
+	• Numerical encoding. 
+
+
+
+
+CATEGORICAL ENCODING:
+	• Nominal categorical encoding. 
+	• Ordinal Categorical Encoding.
+
+
+
+NOMINAL ENCODING: 
+	• It does not have any order(in simple terms we don't need to worry on orders)
+	• Ex: Gender, state.
+
+In nominal encoding we have more types: 
+	1. One-hot encoding.
+	2. One-hot encoding with many categorical variable.
+	3. Mean Encoding .
+	4. Count or frequency encoding. 
+
+
+
+
+
+
+One-hot Encoding:
+	• One hot encoding basically used for nominal data types. 
+	• If you have only small number of features, then use it otherwise use 2nd type.
+	
+
+	• The main thing is that it will increase the number of features, so we can do, drop any one feature in the dataset.  
+	• That is called Dummy Variable trap. 
+	• Dummy variable trap also causes the curse of dimensionality.
+
+
+
+One-hot Encoding with multiple category variables:
+	• If we have just 2 to 3 features means we can apply the one hot encoding.
+	• If we have more than 10 to 20 features means we use the one hot encoding with multi cat.
+
+
+	• What we are going to do means we are going to take first 10 to 20 repeated features and do the one hot encoding. 
+	• It's a proven method. So we can.
+
+
+	
+	
+	
+COUNT OR FREQUENCY ENCODING:
+	• When we use this - whenever we have the high number of categorical data In our dataset we can use this method.
+	• The more number of labels in the data set is called HIGH CARDINALITY.
+Advantages: 
+	• Easy to implement.
+	• Prevent from curse of dimensionality.
+Dis:
+	• If the two values are same it lose the valuable information.
+
+Audio recording started: 12:02 30 August 2021
+
+ORDINAL ENCODING:
+	• It must be in order( in simple terms we need to encode by order)
+	• Ex: degrees, age etc.
+
+In Ordinal Encoding we have some types.
+	1. Label Encoding. 
+	2. Target Guided Ordinal Encoding.
+
+
+
+Label Encoding: 
+	• It’s nothing but based on the order it will assign some values.
+
+
+
+
+Target Guided encoding:
+	• In this method we need to give the two features category and output feature.
+	• Based on that it will assign some values.
+	
+
+	
+	
+	
+	
+	
+
